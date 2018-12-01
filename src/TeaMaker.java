@@ -1,3 +1,4 @@
+
 /*
  *    Copyright (c) The League of Amazing Programmers 2013-2017
  *    Level 1
@@ -6,6 +7,9 @@
 public class TeaMaker {
 
 	/* Figure out how to make a cup of tea using the classes below */
+	TeaBag teabag = new TeaBag("Passion Fruit");
+	Kettle kettle = new Kettle();
+	Cup cup = new Cup();
 
 }
 
@@ -51,8 +55,8 @@ class Kettle {
 
 }
 
-class Cup {
-
+class Cup {	
+	
 	private TeaBag teabag;
 
 	void makeTea(TeaBag teabag, Kettle.Water hotWater) {
