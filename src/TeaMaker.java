@@ -5,14 +5,18 @@
  */
 
 public class TeaMaker {
-
+	public static void main(String[] args) {
+		
+	
 	/* Figure out how to make a cup of tea using the classes below */
-	TeaBag teabag = new TeaBag("Passion Fruit");
+	TeaBag teabag = new TeaBag("Mint");
 	Kettle kettle = new Kettle();
+	Kettle.Water water = kettle.getWater();
+	kettle.boil();
 	Cup cup = new Cup();
-
+	cup.makeTea(teabag, water);
 }
-
+}
 class TeaBag {
 
 	public final static String GREEN = "Green";
