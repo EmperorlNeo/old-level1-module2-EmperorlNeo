@@ -4,11 +4,35 @@ public class Minion {
 		
 	}
 		public void setMaster(String string) {
-
+			
 			
 		}
 		public Object getMaster() {
 
-			return null;
+			return getMaster();
+		}
+		public void setName() {
+			
+			
+		}
+		public Object getName() {
+			
+			return getName();
+		}
+		public void setEyes() {
+			
+			
+		}
+		public Object getEyes() {
+			
+			return getEyes();
+		}
+		public void setColor() {
+			
+			
+		}
+		public Object getColor() {
+			
+			return getColor();
 		}
 }
